@@ -1,0 +1,9 @@
+{
+    "name":"astro",
+    "idade":17,
+    "itens": [
+        "bala fini",
+        "salgadinho", 
+        "doritos"
+    ]
+}

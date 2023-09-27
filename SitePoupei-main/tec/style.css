@@ -1,0 +1,90 @@
+nav {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    align-self: center;
+}
+
+li{
+    display: inline;
+    margin: 30px;
+    
+}
+
+input{
+    height: 35px;
+    align-self: center;
+    width: 400px;
+  /*  background-image: ;
+    background-position: ; */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.dud {
+    color: rgb(255, 0, 0);
+}
+
+.logo {
+    margin: 10px;
+}
+
+.temas{
+    display: flex;
+    flex-direction: row;   
+    height: 200px;
+    width: 200px;
+   
+}
+
+section nav div{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(133, 133, 133);
+}
+
+section nav div:hover {
+    transform: scale(1.1) translateY(-10px);
+    transition: all 250ms;
+}
+
+section nav div:hover > p{
+    color: red;
+}
+
+section nav div {
+    margin: 10px;
+}
+
+section nav div img {
+    border-radius: 20px;
+}
+
+.ladinho {
+    background: gray;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    z-index: 10;
+    top: 57%;&#62;
+    left: 30px;
+}
+
+.lupa {
+    height: 35px ;
+    align-self: center;
+    margin-left: -35px;
+}
