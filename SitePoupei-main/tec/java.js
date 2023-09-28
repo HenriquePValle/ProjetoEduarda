@@ -14,7 +14,16 @@ onkeydown = ()=>{
     pesquisar();
 };
 
-document.querySelector(".ladinho").onclick = function(){
+document.querySelector(".ladinho1").onclick = function(){
     document.querySelector("#anunc").scrollBy(365,0);
+
 };
+
+
+document.querySelector(".ladinho2").onclick = function(){
+    document.querySelector("#anunc").scrollBy(-365,0);
+
+};
+
+
 

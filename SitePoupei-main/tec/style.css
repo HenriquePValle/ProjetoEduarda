@@ -1,7 +1,8 @@
 nav {
     display: flex;
     width: 100%;
-    overflow-x: scroll;
+   overflow-x: hidden; 
+   overflow-y: visible;
 }
 
 ul {
@@ -45,15 +46,22 @@ a:hover {
 .temas{
     display: flex;
     flex-direction: row;   
-    height: 200px;
-    width: 200px;
+  /*  height: 200px;*/
+    width: 100px; 
    
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
 }
 
 section nav div{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(133, 133, 133);
+
 }
 
 section nav div:hover {
@@ -67,24 +75,49 @@ section nav div:hover > p{
 
 section nav div {
     margin: 10px;
+    z-index: 5;
 }
 
 section nav div img {
     border-radius: 20px;
 }
 
-.ladinho {
+.oto {
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    width: 100%;
+}
+
+.oto:hover {
+    transform: scale(1.0) translateY(0);
+}
+
+.ladinho1{
     background: gray;
     width: 64px;
     height: 64px;
-    position: absolute;
-    z-index: 10;
-    top: 57%;&#62;
-    left: 30px;
+    position: relative;
+    left: -46%;
+}
+
+.ladinho2{
+    background: gray;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    left: 44%;
 }
 
 .lupa {
     height: 35px ;
     align-self: center;
     margin-left: -35px;
+}
+
+.uicpv {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
 }
