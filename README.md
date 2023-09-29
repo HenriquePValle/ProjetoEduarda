@@ -1,1 +1,1 @@
-# tepoupei
+# Projeto desenvolvido para a Semana Técnica do Curso Técnico Integrado em Desenvolvimento de Sistemas
